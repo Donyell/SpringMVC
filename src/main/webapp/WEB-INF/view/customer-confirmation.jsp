@@ -1,22 +1,20 @@
 <%--
   Created by IntelliJ IDEA.
   User: donyellmargaret
-  Date: 16/02/2023
-  Time: 18:38
+  Date: 20/02/2023
+  Time: 15:31
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Main menu</title>
+    <title>Title</title>
 </head>
 <body>
-<h1>Donyell home page</h1>
-
-<a href="hello/showForm">Hello world form</a>
+The customer is confirmed: ${customer.firstName} ${customer.lastName}
 <br><br>
-<a href="student/showForm">Student form</a>
+Free passes: ${customer.freePasses}
 <br><br>
-<a href="customer/showForm">Customer form</a>
+Postal code: ${customer.postalCode}
 </body>
 </html>
